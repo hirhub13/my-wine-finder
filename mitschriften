@@ -1,0 +1,84 @@
+Menu:
+body {
+  margin: 0;
+  font-family:'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 10px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .navbar-static-top .container{
+    width: 1170px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .container,
+  .navbar-static-top .container{
+    width: 724px;
+  }
+	nav ul li {
+		display:none;
+	}
+    select.selectmenu  {    
+      display: block;
+	  width:100%;
+	  margin-top:0;
+	  color:#111;
+	  margin-right:20px;
+	  line-height:30px;
+		font-size:13px;
+		
+    }
+	
+	select.selectmenu .bold {
+		font-weight:bold;
+	}
+
+}
+@media (max-width: 768px) {
+  .navbar-static-top {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .container {
+    width: auto;
+  }
+	nav ul li {
+		display:none;
+	}
+
+	header .navigation {
+		align-self: center;
+		text-align:center;
+		  width:100%;
+		  float:right;
+	}
+    select.selectmenu  {    
+      display: block;
+	  width:100%;
+	  float:left;
+	  margin-bottom:20px;
+	  color:#111;
+	  margin-right:20px;
+	  line-height:30px;
+		font-size:13px;
+		
+    }
+	
+	select.selectmenu .bold {
+		font-weight:bold;
+	}
+
+}
+@media (max-width: 480px) {
+	
+	.headnav {
+		text-align:center;
+		float:none;
+		margin:10px 0 0 0;
+	}
+}
